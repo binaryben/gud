@@ -16,6 +16,10 @@ New commands:
 - `git ignore` - Generate or modify .gitignore files
 - `git sync`
 - `git io` - Generate git.io short URLs
+- `git orphan` - Create an orphan branch
+- `git draft` - Create a draft PR
+- `git gud` - Update this repo
+- `git alias` - List available aliases (--help flag will print config.help.aliasname and config.usage.aliasname)
 
 [ghq](https://github.com/x-motemen/ghq) aliases:
 
@@ -25,6 +29,19 @@ New commands:
 - `git root`
 - `git create` - will also initialise it and push to remote
 
+
+### Orphan
+
+```
+$ git checkout --orphan gh-pages
+
+# preview files to be deleted
+$ git rm -rf --dry-run .
+# actually delete the files
+$ git rm -rf .
+# Create and add new files
+```
+
 #### References & Inspiration
 
 - https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
@@ -32,7 +49,7 @@ New commands:
 <details>
 <summary>Unholy list of ZSH plugins for git</summary>
 
-TODO: Curate these (probably into @binaryben/git-gud)
+TODO: Curate these
 
 * [@peterhurford/git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh)
 * [@unixorn/bitbucket-git-helpers.plugin.zsh](https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh)
