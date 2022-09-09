@@ -1,27 +1,33 @@
-# Git Gud
+<br /><br /><br /><div align="center">
 
-There are a LOT of collections of git tools and aliases out there.
+![git gud](https://raw.githubusercontent.com/binaryben/dotfiles/docs/public/git%20gud%20dark.png#gh-dark-mode-only)![git gud](https://raw.githubusercontent.com/binaryben/dotfiles/docs/public/git%20gud%20light.png#gh-light-mode-only)
 
-Goals:
+<h1>&nbsp;</h1><br />
 
-* Cross platform support: Github (Enterprise), Bitbucket and Gitea
-* Central git root directory where all projects live and tooling to make working within it easier
-* Multiple identity management
+![ISC License](https://img.shields.io/badge/license-ISC-green?style=for-the-badge) &nbsp; ![Project Status](https://img.shields.io/badge/status-🚧%20WIP-yellow?style=for-the-badge)
 
-New commands:
+<strong>There are already a LOT of collections of git tools and aliases out there. Here lies another.</strong><br />
+<sub>Give your git workflow superpowers with this curated collection of git extensions, related software and aliases. This project aims to make cross provider support easier by bringing the power of `gh`, `tea`, `jira` and `glab` back to a standard interface under `git`. </sub>
 
+<br />
+
+</div>
+
+
+## New commands
+
+- `git alias` - List available aliases (--help flag will print config.help.aliasname and config.usage.aliasname)
 - `git go` - cd to repo or (with --web flag) open repo in browser
+- `git draft` - Create a draft PR
 - `git pr` - Open PR in browser
 - `git ui` - Open repo in terminal UI (shortcut to [GitUI](https://github.com/Extrawurst/gitui), [lazygit](https://github.com/jesseduffield/lazygit) or [tig](https://jonas.github.io/tig/))
 - `git ignore` - Generate or modify .gitignore files
 - `git sync`
 - `git io` - Generate git.io short URLs
 - `git orphan` - Create an orphan branch
-- `git draft` - Create a draft PR
 - `git gud` - Update this repo
-- `git alias` - List available aliases (--help flag will print config.help.aliasname and config.usage.aliasname)
 
-[ghq](https://github.com/x-motemen/ghq) aliases:
+### Aliases for [ghq](https://github.com/x-motemen/ghq)
 
 - `git get`
 - `git ls`
@@ -29,6 +35,13 @@ New commands:
 - `git root`
 - `git create` - will also initialise it and push to remote
 
+![Divider](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+
+Goals:
+
+* Cross platform support: Github (Enterprise), Bitbucket and Gitea
+* Central git root directory where all projects live and tooling to make working within it easier
+* Multiple identity management
 
 ### Orphan
 
