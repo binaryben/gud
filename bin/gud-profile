@@ -1,0 +1,33 @@
+#! /usr/bin/env sh
+
+## Copyright (c) 2022 Benny Michaels <foss@bnry.be>
+## Licence: ISC (https://opensource.org/licenses/ISC)
+
+cmd="profile"; subcmd=0
+
+description="Short description of the \`git profile\` command"
+
+usage="
+  git profile <arg-name> [flags]
+"
+
+flags=0; args=0
+
+################################################################################
+
+# 🧑‍✈️ Run pre-flight checks:
+
+# Exit if help check results in exit code of 0 (help requested and printed)
+# Note: exit code of 1 indicates help was not requested and cmd should continue
+git-gud--core print-help \
+  "$cmd" "$subcmd" "$description" "$usage" "$flags" "$args" $@
+status=$?; if [ $status -ne 1 ]; then exit $status; fi;
+
+git-gud--core print-error-if-not-in-git-repo
+status=$?; if [ $status -eq 1 ]; then exit $status; fi;
+
+################################################################################
+
+# 🚀 All systems go:
+
+echo "Narrator: But systems were not go"; exit 1
