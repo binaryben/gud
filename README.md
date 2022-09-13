@@ -1,10 +1,6 @@
-<blockquote><details><summary>⚠️ <strong>Notice of Proposal</strong> - click to read</summary><br />
+<blockquote><details><summary>⚠️ <strong>State of Development</strong> - click to read</summary><br />
 
-👋 G'day! Thanks for checking out my project. This is a note to let you know the current official status of this project is 'proposed'. Development is probably underway in the [alpha branch](#) by now, but please be aware that anything you read below is written solely as a goal state to help guide development.
-
-**What does this mean for you? In short, it probably won't work for you ... yet!**
-
-If you like the proposal though, please show your support by starring and watching the repo to receive alerts as development progresses. Developers are welcome to check out the other branches to see the progress directly and may even make contributions if they are feeling brave enough!
+👋 G'day! Thanks for checking out my project. This project is in a very early stage of development. There is much to do. Please be aware, here be dragons!
 
 </details></blockquote>
 
@@ -14,7 +10,7 @@ If you like the proposal though, please show your support by starring and watchi
 
 <h1>&nbsp;</h1><br />
 
-![ISC License](https://img.shields.io/badge/license-ISC-green?style=for-the-badge) &nbsp; ![Project Status](https://img.shields.io/badge/status-💡%20PROPOSAL-yellow?style=for-the-badge)
+![ISC License](https://img.shields.io/badge/license-ISC-green?style=for-the-badge) &nbsp; ![Project Status](https://img.shields.io/badge/status-🚧%20WIP-orange?style=for-the-badge)
 
 <strong>There are already a LOT of collections of git tools and aliases out there. Here lies another.</strong><br />
 <sub>Give your git workflow superpowers with this meticulously curated collection of extra git commands, related software and some cool aliases and functions for good measure. This project has several ambitious goals. One of the most noteworthy is to make cross provider support easier by bringing the power of `gh`, `tea`, `jira`, `glab` and others back into a standard interface under `git` itself.</sub>
@@ -748,7 +744,6 @@ TODO: Curate these
 * [@ytakahashi/igit](https://github.com/ytakahashi/igit)
 
 </details>
-
 
 ![Divider](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
